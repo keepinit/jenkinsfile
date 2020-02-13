@@ -4,7 +4,7 @@ pipeline {
         stage('One') {
                 steps {
                         echo 'Hi, this my declarative pipeline example'
-			whoami
+			echo $USER
 			
                 }
         }
