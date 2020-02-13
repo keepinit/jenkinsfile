@@ -5,7 +5,7 @@ pipeline {
                 steps {
                         echo 'Hi, this my declarative pipeline example'
 			sh 'echo $USER'
-			sh 'sudo usermod -a -G docker $USER'
+			sh 'usermod -a -G docker $USER'
 			sh 'docker pull ubuntu'
 			
                 }
