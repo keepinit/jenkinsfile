@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
                 steps {
-                        echo 'Hi, this my declarative pipeline example'
+                        echo 'Hi, I am raf this is my pipeline'
 			
                 }
         }
