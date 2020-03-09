@@ -3,11 +3,11 @@ pipeline {
     stages {
         stage('Test') {
                 steps {
-                        echo 'Hi, I am raf this is my pipeline'
+                        echo 'Hi, I am Dwalu this is my first pipeline class'
 			
                 }
         }
-	    stage('Prod'){
+	    stage('Re-test'){
 		    
 		steps {
 			input('Do you want to proceed?')
